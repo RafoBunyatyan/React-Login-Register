@@ -1,10 +1,4 @@
-import React, {
-	useState,
-	useEffect,
-	useReducer,
-	useContext,
-	useRef
-} from 'react';
+import React, { useState, useEffect, useReducer, useContext, useRef } from 'react';
 import Card from '../UI/Card/Card';
 import Button from '../UI/Button/Button';
 import AuthContext from '../../store/auth-context';
